@@ -1,0 +1,50 @@
+body {
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+}
+
+.play_area {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.play-board {
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.grid-box,
+.red-player,
+.blue-player {
+    font-size: 30px;
+    padding: 15px 25px;
+    width: 70px;
+    height: 70px;
+    margin: 0px;
+    background-color: #FCFCFC;
+    outline: none;
+}
+
+.red-player {
+    background-color: #FF1744;
+    color: #FFF;
+}
+
+.blue-player {
+    background-color: #2979FF;
+    color: #FFF;
+}
+
+.result {
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.result span {
+    font-weight: normal;
+}

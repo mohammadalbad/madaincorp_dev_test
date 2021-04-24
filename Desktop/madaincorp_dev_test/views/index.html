@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tic Tac Toe</title>
+    <script type="text/javascript" src="../js/game.js"></script>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+
+    <div class="play_area">
+        <h3>Tic Tac Toe</h3>
+        <div id="play-board" class="play-board"></div>
+        <br>
+        <div class="result">
+            Player X : <span id="result-X">0</span> <br> Computer Y : <span id="result-Y">0</span>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function() {
+            generateGame();
+        };
+    </script>
+
+</body>
+
+</html>
